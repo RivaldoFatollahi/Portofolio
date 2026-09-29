@@ -521,7 +521,8 @@
         </p>
         <div class="btn-row">
           <a href="#projects" class="btn">Lihat Proyek</a>
-          <a href="#contact" class="btn alt">Hubungi Saya</a>
+          <a href="CV_RivaldoFatollahi.pdf" class="btn alt" download>Download CV</a>
+          <a href="#contact" class="btn" style="background:var(--yellow);">Hubungi Saya</a>
         </div>
       </div>
       <div
@@ -616,7 +617,7 @@
           </div>
         </div>
         <div class="project-card">
-          <div class="project-thumb"><img src="Sippa.png" alt=""></div>
+          <div class="project-thumb"><img src="Sippa.png" alt="" /></div>
           <div class="project-body">
             <h3>Sippa</h3>
             <p>
@@ -632,7 +633,7 @@
           </div>
         </div>
         <div class="project-card">
-          <div class="project-thumb"><img src="ProfileCom.png" alt=""></div>
+          <div class="project-thumb"><img src="ProfileCom.png" alt="" /></div>
           <div class="project-body">
             <h3>Profile Company PT Banyu Tani Berkarya</h3>
             <p>
@@ -690,24 +691,20 @@
       </div>
     </div>
 
-    <footer>
-      © 2026 Rivaldo Fatollahi.
-    </footer>
+    <footer>© 2026 Rivaldo Fatollahi.</footer>
 
     <script>
-      const text =
-        "fresh_graduate\n$ status\nopen_for_internship_or_job = true;\n$ toeic_score\n> 905";
-      const el = document.getElementById("typed");
-      let i = 0;
-      f;
-      function type() {
-        if (i <= text.length) {
-          el.textContent = text.slice(0, i);
-          i++;
-          setTimeout(type, 35);
-        }
-      }
-      type();
-    </script>
+  const text = "fresh_graduate\n$ status\nopen_for_internship_or_job = true;\n$ toeic_score\n> 905";
+  const el = document.getElementById('typed');
+  let i = 0;
+  function type(){
+    if(i <= text.length){
+      el.textContent = text.slice(0,i);
+      i++;
+      setTimeout(type, 35);
+    }
+  }
+  type();
+</script>
   </body>
 </html>
